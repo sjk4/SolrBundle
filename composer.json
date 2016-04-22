@@ -17,8 +17,6 @@
     "symfony/http-kernel": "^2.3",
     "symfony/config": "^2.3",
     "symfony/doctrine-bridge": "^2.3",
-    "doctrine/mongodb": "*",
-    "doctrine/mongodb-odm": "*",
     "doctrine/orm": "^2.3"
   },
   "require-dev": {
@@ -32,10 +30,6 @@
   },
   "config": {
     "bin-dir": "bin"
-  },
-  "suggest": {
-    "doctrine/mongodb": "Required if you want to use the MongoDB ODM features",
-    "doctrine/mongodb-odm": "Required if you want to use the MongoDB ODM features"
   },
   "target-dir": "FS/SolrBundle"
 }
