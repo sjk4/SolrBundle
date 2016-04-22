@@ -41,8 +41,8 @@ class Field extends Annotation
      * @var array
      */
     private static $TYP_SIMPLE_MAPPING = array(
-        'string' => '_s',
-        'text' => '_t',
+        'string' => '_txt_en_split',
+        'text' => '_txt_en_split',
         'date' => '_dt',
         'boolean' => '_b',
         'integer' => '_i',
